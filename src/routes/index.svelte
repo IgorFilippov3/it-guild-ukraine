@@ -84,7 +84,7 @@
                   >
                 </div>
                 <div class="mt-2 flex items-center">
-                  <span>Наразі проголосувало:</span>
+                  <span>Наразі підписали:</span>
                   <span class="ml-4 text-3xl font-bold">{votes}</span>
                 </div>
               {/if}
