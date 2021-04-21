@@ -9,14 +9,24 @@
 </script>
 
 <script>
+  import Header from "../components/common/Header.svelte";
+
   export let content;
   export let votes;
+
+  const headerItems = [
+    {
+      label: "Компанії які підтримують Дія Сіті",
+      link: "/companies-support-diia",
+    },
+  ];
 </script>
 
 <svelte:head>
   <title>{content.title}</title>
 </svelte:head>
 
+<Header items={headerItems} />
 <div class="hero">
   <div class="pb-8 sm:pb-12 lg:pb-12">
     <div class="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">

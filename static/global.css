@@ -52,6 +52,10 @@
   margin: 1.2em 0;
 }
 
+.markdown a {
+  text-decoration: underline;
+}
+
 .markdown ol, .markdown ul {
   padding-left: 2rem;
 }
